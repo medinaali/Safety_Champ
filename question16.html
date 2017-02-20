@@ -1,0 +1,62 @@
+<!-- Project Name: Safety Champs, Description: Interactive platform for kids to learn about Child Abuse Prevention -->
+<!-- Developer: Medina Ali, www.medinaali.com, medinaali@nyu.edu -->
+<!-- Designer: Akshay Iyer, http://www.akshayiyer.in, akshay.iyer@nyu.edu -->
+<!-- Idea/Concept & Software Development Copyright: Medina Ali -->
+<!-- Resource, Research and Media Credit: HowToTellYourChild.com , https://www.youtube.com/watch?v=uJCWysVuxcs -->
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="action.js"></script>
+<title>Safety Champ!</title>
+<img src="./img/logo2.png" alt="CSGO Howl" style="float:left";>
+    <br>
+    <br>
+</head>
+<body>
+<div class="columnsContainer">
+
+<div align="center">
+<h1> Lets Learn about Whats' Okay and Whats' Not Okay!</h1>
+
+<div class="videoWrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e-rS75zm74k?rel=0&autoplay=1&controls=0&&showinfo=0&loop=1​" frameborder="0" allowfullscreen></iframe>
+</div>
+	  	</div>
+
+	  	<div align="center">
+	  		<h2>Answer These:</h2>
+
+<h2>Is it okay, if a woman says "nice breasts!" to a girl? </h2>
+		<br>
+	<div id="yesarea">
+	<button class="button" onclick="showYes()">NOT OKAY</button>
+	</div>
+		<div id="yesResponse">
+		</div>
+
+    <div id="noarea">
+	<button class="button" onclick="showNo()">OKAY</button>
+	</div>
+		<div id="noResponse"></div>
+
+<br>
+	<div id="nextbutton"  style="display:none;" class="answer_list" >
+	<button class="button"> <a href="question17.html">Next</a></button>
+	</div>
+
+	<div id="tryagainbutton"  style="display:none;" class="answer_list" >
+	<input type="button" value="Try Again" onClick="window.location.reload()">
+	</div>
+
+<p>Score</p>
+
+<img id="score"  src="./img/star.png" alt="SafetyChamp Image" align="middle">
+<img id="score"  src="./img/star.png" alt="SafetyChamp Image" align="middle">
+<img id="score"  src="./img/star.png" alt="SafetyChamp Image" align="middle">
+<img id="score"  src="./img/star.png" alt="SafetyChamp Image" align="middle">
+<img id="score"  src="./img/star.png" alt="SafetyChamp Image" align="middle">
+
+  	</div>
+</body>
+</html>
